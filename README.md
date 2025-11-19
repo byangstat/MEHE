@@ -3,7 +3,7 @@
 
 ## Overview
 
-The MEHE (Multi-head EEG Variational Autoencoder) is a deep learning model for estimating heterogeneous treatment effects (HTE) and deriving individualized treatment rules (ITRs) using EEG biomarkers and clinical features. The model consists of:
+The MEHE (Multi-head EEG Variational Autoencoder) is a deep representating learning model for estimating heterogeneous treatment effects (HTE) and deriving individualized treatment rules (ITRs) using EEG biomarkers and clinical features. The model consists of:
 
 - **Encoder Network (M1)**: EEGNet-based encoder that extracts spatiotemporal features from EEG signals
 - **HTE Prediction Module (M2)**: Separate prediction heads for each treatment arm
@@ -14,7 +14,6 @@ The MEHE (Multi-head EEG Variational Autoencoder) is a deep learning model for e
 ## Repository Structure
 
 ```
-publication_minimal/
 ├── models/
 │   ├── __init__.py
 │   ├── eegnet.py              # EEGNet encoder and decoder
