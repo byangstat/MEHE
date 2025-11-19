@@ -1,9 +1,5 @@
 """
 MEHE for Heterogeneous Treatment Effect Estimation
-
-Main contribution of the paper:
-Yang, Kim, & Wang (2025). Deep Representation Learning for Optimizing 
-Individualized Treatment Decisions with EEG Biomarkers.
 """
 
 import os
