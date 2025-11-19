@@ -1,0 +1,8 @@
+# Minimal dependencies for Multi-head EEGVAE publication version
+
+# Deep learning (required)
+torch>=2.0.0
+
+# Data processing (required)
+numpy>=1.24.0,<2.0.0
+
