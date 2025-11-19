@@ -1,6 +1,9 @@
 # Deep Representation Learning for Optimizing Treatment Decisions with Electroencephalogram Biomarkers
+<<<<<<< HEAD
 
 This is a minimal, publication-ready version of the MEHE code for heterogeneous treatment effect estimation. This version uses **fully synthetic data** to demonstrate model usage without requiring access to real patient data.
+=======
+>>>>>>> 4ff3e8da5c59fa385c0bdd3735028c0f91db97ba
 
 ## Overview
 
@@ -10,7 +13,7 @@ The MEHE (Multi-head EEG Variational Autoencoder) is a deep learning model for e
 - **HTE Prediction Module (M2)**: Separate prediction heads for each treatment arm
 - **Decoder Network (M3)**: Transposed EEGNet decoder for reconstruction
 
-[View MEHE Architecture Figure](MEHE.pdf)
+![MEHE Architecture](MEHE.png)
 
 ## Repository Structure
 
