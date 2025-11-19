@@ -95,7 +95,7 @@ history, best_model_path = train_eegvae(
 
 ```python
 import torch
-from models import MeheEEGVAE, train_mehe
+from models import MEHE, train_mehe
 from data import create_synthetic_dataset
 from torch.utils.data import DataLoader
 
@@ -111,7 +111,7 @@ train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)
 val_loader = DataLoader(val_dataset, batch_size=32, shuffle=False)
 
 # Create MEHE model
-model = MeheEEGVAE(
+model = MEHE(
     n_channels=54,
     n_samples=256,
     latent_dim=8,

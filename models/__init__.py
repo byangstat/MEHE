@@ -7,14 +7,14 @@ for heterogeneous treatment effect estimation.
 
 from .eegnet import EEGNetEncoder, EEGNetDecoder
 from .eegvae import EEGVAE, train_eegvae
-from .mehe import MeheEEGVAE, train_mehe
+from .mehe import MEHE, train_mehe
 
 __all__ = [
     'EEGNetEncoder',
     'EEGNetDecoder',
     'EEGVAE',
     'train_eegvae',
-    'MeheEEGVAE',
+    'MEHE',
     'train_mehe'
 ]
 

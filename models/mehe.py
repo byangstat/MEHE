@@ -13,7 +13,7 @@ import torch.nn.functional as F
 from .eegnet import EEGNetEncoder, EEGNetDecoder
 
 
-class MeheEEGVAE(nn.Module):
+class MEHE(nn.Module):
     """
     MEHE (Multi-head EEG Variational Autoencoder) for HTE estimation.
     
@@ -263,7 +263,7 @@ def train_mehe(
     Train MEHE model (Algorithm 1 in paper).
     
     Args:
-        model: MeheEEGVAE model
+        model: MEHE model
         train_loader: DataLoader for training data
         val_loader: DataLoader for validation data
         epochs: Number of training epochs

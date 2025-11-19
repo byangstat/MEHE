@@ -15,7 +15,7 @@ import torch
 from torch.utils.data import DataLoader
 import numpy as np
 
-from models import EEGVAE, train_eegvae, MeheEEGVAE, train_mehe
+from models import EEGVAE, train_eegvae, MEHE, train_mehe
 from data import create_synthetic_dataset
 
 
@@ -98,7 +98,7 @@ def demo_mehe(train_loader, val_loader, test_loader, device):
     
     # Create MEHE model
     print("\nCreating MEHE Model...")
-    model = MeheEEGVAE(
+    model = MEHE(
         n_channels=54,
         n_samples=256,
         latent_dim=8,
