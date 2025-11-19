@@ -1,6 +1,4 @@
-# MEHE: Minimal Publication Version
-
-This is a minimal, publication-ready version of the MEHE code for heterogeneous treatment effect estimation. This version uses **fully synthetic data** to demonstrate model usage without requiring access to real patient data.
+# Deep Representation Learning for Optimizing Treatment Decisions with Electroencephalogram Biomarkers
 
 ## Overview
 
