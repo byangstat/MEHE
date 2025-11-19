@@ -10,7 +10,7 @@ The MEHE (Multi-head EEG Variational Autoencoder) is a deep learning model for e
 - **HTE Prediction Module (M2)**: Separate prediction heads for each treatment arm
 - **Decoder Network (M3)**: Transposed EEGNet decoder for reconstruction
 
-![MEHE Architecture](MEHE.pdf)
+[View MEHE Architecture Figure](MEHE.pdf)
 
 ## Repository Structure
 
